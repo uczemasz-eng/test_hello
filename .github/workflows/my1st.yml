@@ -1,1 +1,3 @@
-
+- run: |
+   echo "POzdrowienia dla ${{ vars.WHO_TO_GREET }} od ${{ github.actor}}."
+   echo "moje zamaskowane hasło to ${{secret.MY_SECRET }}."
